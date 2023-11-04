@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dulzereza_1699116703306-push-trigger-input-set
+  identifier: Build_dulzereza_1699116703306pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dulzereza_1699116703306
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
